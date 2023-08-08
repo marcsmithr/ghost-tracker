@@ -1,0 +1,25 @@
+.review-container{
+    margin:10px;
+    border: .5px solid rgba(0, 0, 0, 0.255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+
+.stars-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-star{
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+.star-rating{
+    font-size: 1.5rem;
+}
